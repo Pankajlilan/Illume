@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="share.com.illume.MainActivity">
+
+    <item
+        android:id="@+id/hotspot"
+        android:title="Turn Hotspot Off"
+        app:showAsAction="always"
+        android:icon="@drawable/hotspot_off"/>
+
+    <item
+        android:id="@+id/wifi"
+        android:title="Turn Wifi On"
+        app:showAsAction="always"
+        android:icon="@drawable/wifi_on"/>
+
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />-->
+</menu>
